@@ -11,6 +11,9 @@ import { Card } from "./components/layout/Card";
 import { Familia } from "./components/basicos/Familia";
 import { FamiliaMembro } from "./components/basicos/FamiliaMembro";
 import { ListaAlunos } from "./components/repeticao/ListaAlunos";
+import { TabelaProdutos } from "./components/repeticao/TabelaProdutos";
+import { ParouImpar } from "./components/condicional/ParouImpar";
+import { UsuarioInfo } from "./components/condicional/Usuarioinfo";
 
 
 export function App(props) {
@@ -18,6 +21,16 @@ return (
 <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+
+        <Card titulo="#07 Rederização Condicional" color="#B03A2E">
+            <ParouImpar numero={2}/>
+            <UsuarioInfo usuario={{nome: "wendel"}}/>
+            <UsuarioInfo />
+        </Card>
+
+        <Card titulo="#07 Desafio Repetição" color="#6C3483">
+            <TabelaProdutos />
+        </Card>
 
         <Card titulo="#06 Repetição" color="#2E4053">
             <ListaAlunos />

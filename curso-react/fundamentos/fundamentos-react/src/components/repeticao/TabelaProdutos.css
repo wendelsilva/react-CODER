@@ -1,0 +1,12 @@
+table {
+    width: 100%;
+}
+
+table th {
+    background-color: #006699;
+    color: #fff;
+}
+
+table .par {
+    background-color: #E1F1F7;
+}
