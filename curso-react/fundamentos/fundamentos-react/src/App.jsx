@@ -25,7 +25,6 @@ return (
         <Card titulo="#07 Rederização Condicional" color="#B03A2E">
             <ParouImpar numero={2}/>
             <UsuarioInfo usuario={{nome: "wendel"}}/>
-            <UsuarioInfo />
         </Card>
 
         <Card titulo="#07 Desafio Repetição" color="#6C3483">
