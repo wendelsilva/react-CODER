@@ -14,6 +14,8 @@ import { ListaAlunos } from "./components/repeticao/ListaAlunos";
 import { TabelaProdutos } from "./components/repeticao/TabelaProdutos";
 import { ParouImpar } from "./components/condicional/ParouImpar";
 import { UsuarioInfo } from "./components/condicional/Usuarioinfo";
+import { DiretaPai } from "./components/comunicacao/DiretaPai";
+import { IndiretaPai } from "./components/comunicacao/IndiretaPai";
 
 
 export function App(props) {
@@ -22,7 +24,15 @@ return (
     <h1>Fundamentos React</h1>
     <div className="Cards">
 
-        <Card titulo="#07 Rederização Condicional" color="#B03A2E">
+        <Card titulo="#10 Comunicação Indireta" color="#148F77">
+            <IndiretaPai />
+        </Card>
+
+        <Card titulo="#09 Comunicação Direta" color="#148F77">
+            <DiretaPai />
+        </Card>
+
+        <Card titulo="#08 Rederização Condicional" color="#B03A2E">
             <ParouImpar numero={2}/>
             <UsuarioInfo usuario={{nome: "wendel"}}/>
         </Card>
