@@ -1,6 +1,6 @@
 import React from "react";
 
-import alunos from "../../data/alunos"
+import { alunos } from "../../data/alunos"
 
 export function ListaAlunos() {
     const alunosJSX = alunos.map(aluno => {

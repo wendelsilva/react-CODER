@@ -1,8 +1,8 @@
 import React from "react";
-import { If }  from "./If";
+// import { If }  from "./If";
 
 export function UsuarioInfo(props) {
-    const usuario = props.usuario || {};
+    // const usuario = props.usuario || {};
     return (
         <div>
             {/* <If test={usuario && usuario.nome}>

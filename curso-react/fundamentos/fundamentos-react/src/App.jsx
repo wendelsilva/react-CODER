@@ -16,6 +16,7 @@ import { ParouImpar } from "./components/condicional/ParouImpar";
 import { UsuarioInfo } from "./components/condicional/Usuarioinfo";
 import { DiretaPai } from "./components/comunicacao/DiretaPai";
 import { IndiretaPai } from "./components/comunicacao/IndiretaPai";
+import { Input } from "./components/formulario/Input";
 
 
 export function App(props) {
@@ -23,6 +24,10 @@ return (
 <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+
+        <Card titulo="#11 Componente Controlado" color="#34495E">
+            <Input />
+        </Card>
 
         <Card titulo="#10 Comunicação Indireta" color="#148F77">
             <IndiretaPai />
