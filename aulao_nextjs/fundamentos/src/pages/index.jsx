@@ -14,8 +14,9 @@ export default function Home() {
             <Navegador destino="/jsx" texto="Jsx" cor="crimson"/>
             <Navegador destino="/navegacao" texto="Navegação #01" cor="green"/>
             <Navegador destino="/cliente/123" texto="Navegação #02" cor="blue"/>
-            <Navegador destino="/estado" texto="Componente com Estado" cor="pink"/>
-            <Navegador destino="/integracao_1" texto="Integração com API" cor="yellow"/>
+            <Navegador destino="/estado" texto="Componente com Estado" cor="#754582"/>
+            <Navegador destino="/integracao_1" texto="Integração com API #01" cor="#00F7FF"/>
+            <Navegador destino="/estatico" texto="Conteúdo estático" cor="#E03F47"/>
         </div>
     )
 }
